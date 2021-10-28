@@ -1,0 +1,11 @@
+cl\solemne2\controller\ListarController.class
+cl\solemne2\dao\exceptions\NonexistentEntityException.class
+cl\solemne2\dao\RegistroJpaController.class
+cl\solemne2\JAXRSConfiguration.class
+cl\solemne2\entity\Registro.class
+cl\solemne2\controller\RegistroController.class
+cl\solemne2\dao\exceptions\IllegalOrphanException.class
+cl\solemne2\controller\EliminarController.class
+cl\solemne2\dao\exceptions\PreexistingEntityException.class
+cl\solemne2\resources\JavaEE8Resource.class
+cl\solemne2\controller\EditarController.class

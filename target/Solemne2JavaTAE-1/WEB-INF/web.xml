@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+   version="4.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <data-source>
+        <description>Data Source Evaluacion 2</description>
+        <name>java:app/ds_eva2</name>
+        <class-name>org.postgresql.ds.PGSimpleDataSource</class-name>
+        <server-name>ec2-54-224-194-214.compute-1.amazonaws.com</server-name>
+        <port-number>5432</port-number>
+        <database-name>d1j4d0cs2v78md</database-name>
+        <user>yqxhtbadcywnpx</user>
+        <password>2988a66efac99598c5fa2cc0d6e202dbfef99cd8b46afc9868f92063cdd51b5c</password>
+        <property>
+            <name>sslmode</name>
+            <value>require</value>
+        </property>
+        <login-timeout>0</login-timeout>
+        <transactional>false</transactional>
+        <isolation-level>TRANSACTION_READ_COMMITTED</isolation-level>
+        <initial-pool-size>2</initial-pool-size>
+        <max-pool-size>10</max-pool-size>
+        <min-pool-size>5</min-pool-size>
+        <max-idle-time>10</max-idle-time>
+        <max-statements>0</max-statements>
+    </data-source>
+</web-app>
